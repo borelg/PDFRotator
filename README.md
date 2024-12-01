@@ -56,6 +56,8 @@ Rotating the page left or right
 Saving the PDF
 Example Interface
 
+![Interface](interface.png)
+
 ## Technical Details
 Scaling: The PDF preview is scaled to fit within 800x600 pixels while maintaining the aspect ratio.
 PDF Manipulation: Uses PyMuPDF to handle PDF rendering and page rotation.
