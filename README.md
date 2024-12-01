@@ -22,7 +22,7 @@ Install missing libraries with:
 pip install PyMuPDF Pillow
 ```
 
-##How to Use
+## How to Use
 
 1. Clone or Download the Repository:
 
@@ -46,7 +46,7 @@ Save Changes:
 
 5. Click "Save", choose a location, and save the PDF with the new rotations.
 
-##Interface
+## Interface
 The application interface contains:
 
 A canvas for displaying the current page preview.
@@ -56,18 +56,18 @@ Rotating the page left or right
 Saving the PDF
 Example Interface
 
-##Technical Details
+## Technical Details
 Scaling: The PDF preview is scaled to fit within 800x600 pixels while maintaining the aspect ratio.
 PDF Manipulation: Uses PyMuPDF to handle PDF rendering and page rotation.
 Image Rendering: Converts PDF pages into images with Pillow for display in the tkinter canvas.
 
-##Development
+## Development
 Contributions are welcome! If you have suggestions for features or improvements, feel free to open an issue or submit a pull request.
 
-##To-Do
+## To-Do
 Add page navigation (next/previous).
 Support for zooming in/out on the preview.
 Enhanced error handling for invalid PDFs.
 
-##License
+## License
 This project is licensed under the GPL3 License.
